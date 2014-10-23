@@ -1,0 +1,9 @@
+#!/usr/bin/sh
+
+file_name=$1
+shift
+
+while true; do
+  change=$(inotifywait -e modify,close_write,moved_to,create $file_name)
+  $*
+done
