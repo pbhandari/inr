@@ -1,5 +1,10 @@
 #!/usr/bin/sh
 
+# Usage:
+#   inr [OPTIONS] FILE COMMAND
+#
+# Author: Prajjwal Bhandari
+
 file_name=$1
 shift
 

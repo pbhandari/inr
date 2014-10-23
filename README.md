@@ -1,4 +1,11 @@
-inotifyrun
-==========
+## inotifyrun
 
 Monitor a file and run a command when changed.
+
+## Usage
+```
+inr [OPTIONS] FILE COMMAND
+```
+
+## Dependencies
+- inotifywait
