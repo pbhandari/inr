@@ -1,6 +1,7 @@
 ## inr
 
-Monitor a file and run a command when changed.
+Monitor a file and run a command when changed, inspired by
+[ltest](https://github.com/wmak/ltest).
 
 ## Usage
 ```
