@@ -10,5 +10,5 @@ shift
 
 while true; do
   change=$(inotifywait -e modify,close_write,moved_to,create $file_name)
-  $*
+  eval $@
 done
