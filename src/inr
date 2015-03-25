@@ -22,5 +22,5 @@ shift
 
 while :; do
   change=$(inotifywait -e modify,close_write,moved_to,create $file_name)
-  sh -c "$@"
+  sh -c "$(printf "$@\n" $file_name)"
 done
